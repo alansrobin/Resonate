@@ -1,4 +1,4 @@
-# 📘 Resonate: Crowdsourced Civic Issue Reporting & Resolution
+# 📘 Team Resonate: Jharkhand Civic Issue Portal
 
 ## 📝 Problem Statement
 
@@ -11,7 +11,7 @@ Smart India Hackathon 2025 – Government of Jharkhand
 
 ## 🚀 Overview
 
-Resonate is a **citizen-powered grievance redressal platform** that enables communities to report, track, and escalate civic issues such as potholes, garbage, and streetlight failures.  
+Jharkhand Civic Issue Portal is a **citizen-powered grievance redressal platform** that enables communities to report, track, and escalate civic issues such as potholes, garbage, and streetlight failures.  
 Built on **FastAPI + MongoDB + React + Tailwind**, it empowers citizens with **real-time reporting**, prevents duplicates, and uses **crowdsourced voting** to prioritize issues. The admin dashboard integrates with **e-office workflows**, ensuring transparency and accountability.
 
 ---
@@ -26,7 +26,6 @@ Built on **FastAPI + MongoDB + React + Tailwind**, it empowers citizens with **r
 * Public feed + map with search & filters  
 * **Vote to escalate** or **flag fake**  
 * Notifications for status changes  
-* Multilingual support + gamification
 
 ### 🛠️ Admin Dashboard
 
@@ -43,8 +42,7 @@ Built on **FastAPI + MongoDB + React + Tailwind**, it empowers citizens with **r
 
 * **Database:** MongoDB
 * **Backend:** FastAPI
-* **Frontend:** React + TailwindCSS
-* **Maps:** Google Maps API  
+* **Frontend:** React + TailwindCSS 
 ---
 
 ## 📂 Project Structure
@@ -59,10 +57,11 @@ working/
 │   │   ├── services/        # CRUD, email, business logic
 │   │   └── core/            # DB, security, dependencies
 │   ├── requirements.txt
+|   ├── uploads/             # Stores images
 │   └── Dockerfile
 │
 │── frontend/
-│   ├── src/ (React + Tailwind app)
+│   ├── src/ (React + Tailwind app + Pages & Components)
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -165,7 +164,7 @@ docker-compose up --build
 
 * **Frontend:** A Abhiram, Vaishnavi Sujith
 * **Backend:**  Abhishek S, Alan S Robin
-* **Backend + DB:** Devadevan B P
+* **Full Stack:** Devadevan B P
 * **Documentation:** Anjosh J A
 
 ---
