@@ -165,7 +165,7 @@ docker-compose up --build
 
 * **Frontend:** A Abhiram, Vaishnavi Sujith
 * **Backend:**  Abhishek S, Alan S Robin
-* **Backend:** Devadevan B P
+* **Backend + DB:** Devadevan B P
 * **Documentation:** Anjosh J A
 
 ---
